@@ -4,6 +4,8 @@ body {
 }
 
 .title-pages {
+    margin-top: 10px;
+    margin-bottom: 16px;
     font-weight: 900 !important;
     font-size: 19px;
 }
@@ -19,6 +21,10 @@ body {
 
 .description {
     padding-left: 24px !important;
+}
+
+.title-pol {
+    margin-left: -12px;
 }
 
 .sub {
@@ -47,4 +53,15 @@ body {
 .sub-3 {
     margin-top: -16px;
     margin-left: 60px;
+}
+
+.separator {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    display: block;
+    content: " ";
+    width: 100%;
+    transform: translateY(-50%);
+    background: #eee;
 }
